@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    height: 80px;
+    border: 0.5rem solid #EBECD0;
+    background-color: #0A5D77;
+    align-items: center; 
+}
+
+header picture img {
+    height: 50px;
+    margin: 10px;
+}
+
+header h1 {
+    width: 100%;
+    text-align: center;
+    color: #EBECD0;
+}
+
+nav {
+    border: none;
+    background-color: #0E878E;
+}
+
+nav h2 {
+    width: 100%;
+    text-align: center;
+    color: #EBECD0; 
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+
+}
+
+nav ul li {
+    list-style-type: none;
+    padding: 2rem;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #EBECD0;
+    background-color: #0E878E;
+    padding: 5px;
+    border: 0.08rem solid #EBECD0;
+    
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: #EBECD0;
+    background-color: #2AC5B2;
+    padding: 7px;
+    border: 0.08rem solid #EBECD0;
+    cursor: pointer;
+}
+
+main {
+    background-color: #0E878E;
+    border: 0.5rem solid #EBECD0;
+    border-top-width: 0;
+
+}
+
+main section h2 {
+    width: 100%;
+    text-align: center;
+    color: #EBECD0; 
+}
+
+main section p{
+    width: 100%;
+    text-align: center;
+    color: #EBECD0; 
+}
+
+footer {
+    border: 0.5rem solid #EBECD0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #0A5D77;
+    align-items: center;
+}
+
+footer section {
+    margin: 40px;
+}
+
+footer section h4{
+    color: #EBECD0;
+    text-align: center;
+}
+
+footer section p{
+    color: #EBECD0;
+    text-align: justify;
+}
+
+footer picture img {
+    height: 100px;
+    margin: 15px;
+}
+
+.div_footer {
+    border: 0.5rem solid #EBECD0;
+    border-top-width: 0;
+    text-align: center;
+    background-color: #05485E;
+    color: #EBECD0;
+}

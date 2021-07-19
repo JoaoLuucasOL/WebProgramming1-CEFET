@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    height: 80px;
+    border: 0.5rem solid #EBECD0;
+    background-color: #0A5D77;
+    align-items: center; 
+}
+
+header picture img {
+    height: 50px;
+    margin: 10px;
+}
+
+header h1 {
+    width: 100%;
+    text-align: center;
+    color: #EBECD0;
+}
+
+main {
+    background-color: #0E878E;
+    border: 0.5rem solid #EBECD0;
+    border-top-width: 0;
+}
+
+main form fieldset {
+
+    border: 0.2rem solid #EBECD0;
+    margin: 1rem 3rem;
+    padding: 2rem;
+}
+
+main form fieldset legend {
+    color: #EBECD0;
+    font-size: large;
+}
+
+main form fieldset div {
+    display: flex;
+    flex-direction: row;
+    margin: 2rem 0;
+}
+
+main > form > fieldset > div > label {
+    width: 12%;
+    color: #EBECD0;
+    padding: 4px;
+    text-align: center;
+}
+
+main > form > fieldset > div > input {
+    width: 88%;
+    padding: 4px;
+}
+
+main fieldset section {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    padding: 10px;
+}
+
+main fieldset section a {
+    text-align: center;
+    text-decoration: none;
+    color: #EBECD0;
+    background-color: #0E878E;
+    padding: 5px;
+    margin: 5px;
+    border: 0.08rem solid #EBECD0;
+    
+}
+
+main fieldset section a:hover {
+    text-decoration: none;
+    color: #EBECD0;
+    background-color: #2AC5B2;
+    padding: 5px;
+    margin: 5px;
+    border: 0.08rem solid #EBECD0;
+    cursor: pointer;
+}
+
+footer {
+    border: 0.5rem solid #EBECD0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #0A5D77;
+    align-items: center;
+}
+
+footer section {
+    margin: 40px;
+}
+
+footer section h4{
+    color: #EBECD0;
+    text-align: center;
+}
+
+footer section p{
+    color: #EBECD0;
+    text-align: justify;
+}
+
+footer picture img {
+    height: 100px;
+    margin: 15px;
+}
+
+.div_footer {
+    border: 0.5rem solid #EBECD0;
+    border-top-width: 0;
+    text-align: center;
+    background-color: #05485E;
+    color: #EBECD0;
+}

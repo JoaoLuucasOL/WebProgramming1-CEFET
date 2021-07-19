@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    height: 80px;
+    border: 0.5rem solid #EBECD0;
+    background-color: #0A5D77;
+    align-items: center; 
+}
+
+header picture img {
+    height: 50px;
+    margin: 10px;
+}
+
+header h1 {
+    width: 100%;
+    text-align: center;
+    color: #EBECD0;
+}
+
+nav {
+    border: 0.5rem solid #EBECD0;
+    border-bottom-width: 0.3rem solid #EBECD0;
+    border-top-width: 0;
+    background-color: #2691B2;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+
+nav ul li {
+    list-style-type: none;
+    padding: 0.5rem;
+
+}
+
+nav ul li:hover {
+    text-decoration: none;
+    color: #EBECD0;
+    background-color: #2AC5B2;
+    padding: 7px;
+    cursor: pointer;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #EBECD0;
+    padding: 5px;
+}
+
+main {
+    background-color: #0E878E;
+    border: 0.5rem solid #EBECD0;
+    border-top-width: 0;
+}
+
+main h2 {
+    color: #EBECD0;
+    font-size: xx-large;
+    text-align: center;
+}
+
+main section {
+    display: flex;
+    flex-direction:row;
+}
+
+main > section section picture img{
+    border: 0.2rem solid #EBECD0;
+    margin: 20px;
+}
+
+main > section section {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;  
+}
+
+main section section section {
+    display: flex;
+    flex-direction: row;
+}
+
+main > section section section h4 {
+    color: #EBECD0;
+    display: flex;
+    font-size: large;
+    padding: 10px;
+}
+
+main > section section section p {
+    color: #EBECD0;
+    display: flex;
+    padding: 10px;
+}
+
+footer {
+    border: 0.5rem solid #EBECD0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #0A5D77;
+    align-items: center;
+}
+
+footer section {
+    margin: 40px;
+}
+
+footer section h4{
+    color: #EBECD0;
+    text-align: center;
+}
+
+footer section p{
+    color: #EBECD0;
+    text-align: justify;
+}
+
+footer picture img {
+    height: 100px;
+    margin: 15px;
+}
+
+.div_footer {
+    border: 0.5rem solid #EBECD0;
+    border-top-width: 0;
+    text-align: center;
+    background-color: #05485E;
+    color: #EBECD0;
+}

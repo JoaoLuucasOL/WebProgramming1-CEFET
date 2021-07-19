@@ -5,35 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LAW1Class</title>
+    <link href="./css/style_cadastro_login.css" rel="stylesheet" />
 </head>
-<body>
+<body class="container">
     <header>
         <picture>
             <img src="img/chess_logo_3 3 (2).svg" alt="Logo do site" />
         </picture>
         <h1>Chess Academy</h1>
 
-    </header>>
+    </header>
     <main>
         <br /><br /><br />
         <form method="POST" action="" enctype="multipart/form-data">
             <fieldset>
                 <legend>Login</legend>
-                
-                <label>Email: </label>
-                <input type="email" name="email" required /> <br /><br />
-                
-                <label>Senha: </label>
-                <input type="password" required /> <br /><br />
-                
-                <input type="checkbox" name="isRobot" value="notRobot" id="robot" />
-                <label for="robot" >Eu não sou um robô</label> <br /><br />
-                
-                <button type="button">Entrar</button>
-                <button type="reset">Limpar</button>
-                
-                <a href="inicio.html">Entrar</a>
+
+                <div>
+                    <label>Email: </label>
+                    <input type="email" name="email" required /> 
+                </div>
+                <div>
+                    <label>Senha: </label>
+                    <input type="password" required />
+                </div>
+
+                <section>
+                    <a href="inicio.html">Entrar</a>
                 <a href="index.html">Voltar</a>
+                </section>
+                
             </fieldset>
         </form>
         <br /><br /><br />
@@ -61,7 +62,7 @@
                 Mestre. </p>
         </section> 
         <br /><br />
-        <div>&copy; All rights preserved - CEFET-MG</div> 
     </footer>
+    <div class="div_footer" >&copy; All rights preserved - CEFET-MG</div> 
 </body>
 </html
